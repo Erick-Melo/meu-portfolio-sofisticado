@@ -21,17 +21,17 @@ import ModalImage from "../common/ModalImage";
 
 // Dados mockados para projetos - o usuário substituirá pelos seus dados reais
 const mockProjects = [
-  {
-    id: 1,
-    title: "Projeto Comercial: Espaço 46",
-    category: "Aplicação Web",
-    images: [espaco46_1, espaco46_2],
-    description:
-      "Plataforma para gerenciamento de lojas, onde os administradores verificam o crescimento, fluxo de pessoas e de vendas em determinados horários, gerenciam e validam metas para os lojistas, gerando pontuações e recompesnas, além disso há também uma parte no código aberta para usuários externos cadastrarem seus currículos e lojas. Os lojistas podem ver seu próprio crescimento, além de avisos e um carrosel de eventos criado e gerenciado pelos adminstradores. Desenvolvido com React, Node.js, TailwindCSS, e várias bibliotecas externas do react.",
-    tech: ["React", "Node.js", "TailwindCSS", "PostgreSQL", "Swiper"],
-    liveLink: "#",
-    repoLink: "#",
-  },
+  // {
+  //   id: 1,
+  //   title: "Projeto Comercial: Espaço 46",
+  //   category: "Aplicação Web",
+  //   images: [espaco46_1, espaco46_2],
+  //   description:
+  //     "Plataforma para gerenciamento de lojas, onde os administradores verificam o crescimento, fluxo de pessoas e de vendas em determinados horários, gerenciam e validam metas para os lojistas, gerando pontuações e recompesnas, além disso há também uma parte no código aberta para usuários externos cadastrarem seus currículos e lojas. Os lojistas podem ver seu próprio crescimento, além de avisos e um carrosel de eventos criado e gerenciado pelos adminstradores. Desenvolvido com React, Node.js, TailwindCSS, e várias bibliotecas externas do react.",
+  //   tech: ["React", "Node.js", "TailwindCSS", "PostgreSQL", "Swiper"],
+  //   liveLink: "#",
+  //   repoLink: "#",
+  // },
   {
     id: 2,
     title: "Blog: Betting Academy",
