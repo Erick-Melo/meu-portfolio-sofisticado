@@ -13,6 +13,10 @@ import betting3 from "../../assets/images/projects/BA3.png";
 import fortequip1 from "../../assets/images/projects/F1.png";
 import fortequip2 from "../../assets/images/projects/F2.png";
 import fortequip3 from "../../assets/images/projects/F3.png";
+import pdvU1 from "../../assets/images/projects/pdvunivisa1.png";
+import pdvU2 from "../../assets/images/projects/pdvunivisa2.png";
+import pdvU3 from "../../assets/images/projects/pdvunivisa3.png";
+import pdvU4 from "../../assets/images/projects/pdvunivisa4.png";
 import ModalImage from "../common/ModalImage";
 
 // Dados mockados para projetos - o usuário substituirá pelos seus dados reais
@@ -54,6 +58,17 @@ const mockProjects = [
     description:
       "Um sistema com separação de usuários por cargo que permite o acompanhamento de vendas, controle de estoque, e gerenciamento de clientes. Os usuários podem realizar vendas, ancaminha-las para aprovacao do gestor, emitir e imprimir o recibo para o cliente. Desenvolvido com React.js, Chart.js, Google Charts",
     tech: ["React.js", "Chart.js", "Google Charts"],
+    liveLink: "#",
+    repoLink: "#",
+  },
+  {
+    id: 4,
+    title: "Colégio univisa: Ponto de Vendas",
+    category: "Aplicação Web",
+    images: [pdvU1, pdvU2, pdvU3, pdvU4],
+    description:
+      "Um pequeno sistema de ponto de vendas, onde os usuários podem registrar as vendas dos produtos relacionados ao colégio, como livros, fardamentos, apostilas, etc. Ao final de cada venda é gerado um recibo em pdf para o cliente, e ao final do dia o usuário pode realizar o fechamento do caixa com o resumo e total das vendas. Os adminstradores conseguem gerenciar os produtos, meios de pagamento e usuários, além de ver o resumo do dia. Desenvolvido com React.js, TailwindCSS.",
+    tech: ["React.js", "TailwindCSS"],
     liveLink: "#",
     repoLink: "#",
   },
